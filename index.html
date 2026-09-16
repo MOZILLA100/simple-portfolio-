@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Frontend Developer</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">KCEE</div>
+        
+        <div class="mobile-bar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Eze Kenechukwu</h1>
+            <h2>I'm a <span class="highlight">Frontend Developer</span></h2>
+            <p>I create beautiful, responsive, and user-friendly web experiences using modern technologies. Passionate about clean code and innovative design.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Download CV</a>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-icon">🌐</a>
+                <a href="#" class="social-icon">💼</a>
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">▶</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-circle"><img src="./media/kce.jpeg" alt="" class="about_image"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate frontend developer with expertise in building modern, responsive web applications. With a keen eye for detail and a love for clean code, I transform ideas into engaging digital experiences. I stay updated with the latest web technologies and best practices to deliver high-quality solutions that exceed expectations.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">⚛</div>
+                <h3>React</h3>
+                <p>Building dynamic UIs with React hooks and modern patterns</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>CSS/Tailwind</h3>
+                <p>Creating beautiful, responsive designs with modern CSS</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📱</div>
+                <h3>Responsive Design</h3>
+                <p>Mobile-first approach for all screen sizes</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>ES6+ and modern JavaScript development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🛍</div>
+                <div class="project-content">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A fully responsive online shopping platform with cart functionality and payment integration.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Redux</span>
+                        <span class="tag">Stripe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3>Analytics Dashboard</h3>
+                    <p>Interactive dashboard with real-time data visualization and reporting features.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Chart.js</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🎬</div>
+                <div class="project-content">
+                    <h3>Movie Database App</h3>
+                    <p>Search and discover movies with detailed information using TMDB API.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">API</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>+
+        <p>&copy; 2025 KCEE. All rights reserved.</p>
+    </footer>
+
+    <script src="/script.js">
+    </script>
+</body>
+</html>
